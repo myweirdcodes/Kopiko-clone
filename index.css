@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    font-family: 'Asap', sans-serif;
+}
+.header{
+    height: 76px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+.headerSub{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row; 
+}
+.kopikologo{
+    padding-left: 120px;
+    width:180px;
+    height: 102px;
+    flex:1; 
+}
+.menuMain{
+    height:100%;
+    width: 100%;
+    padding-right: 100px;
+    justify-content: end;
+    flex:1;
+    display: flex;
+    flex-direction: row;
+}
+.menuSub{
+    height: 100%;
+    margin-right: 40px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFF;
+    
+}
+.content-one{
+    height: 493px;
+    background-color: blue;
+    background-image: url(./Content1background.jpg);
+    background-size: cover;
+}
+.content-two{
+    height: 448px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.content2a{
+    padding-right: 40px;
+    padding-top: 80px;
+}
+.content2b1{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 46px;
+    color: #FFFF;
+
+}
+.content2b2{
+    font-size: 19px;
+    line-height: 27px;
+    color: #FFFF;
+}
+.content-three{
+    height: 647px;
+    width: 100%;
+    background-color: blue;
+    background-image: url(./content3background.jpg);
+    background-size: cover;
+}
+.content3c{
+    display: flex;
+    justify-content: end;
+    padding-top:70px;
+    padding-right: 200px;
+}
+.content3csub{
+    display: flex;
+    flex-direction: column;
+}
+.content3c1{
+    color: red;
+    font-family: 'helveticaneuebold',sans-serif;
+    font-size: 40px;
+    line-height: 100px;
+    font-weight: 500
+    
+}
+.content3c2{
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 700;
+}
+.content-four{
+    height:603px;
+    width:100%;
+    padding-top: 150px;
+    background-color: beige;
+    background-image: url(./content4background.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.content4d{
+    display: flex;
+    flex-direction: column;
+}
+.content4d1{
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 600;
+    color: #FFFF;
+    text-align: center;
+}
+.content4d2{
+    font-size: 20px;
+    line-height: 22px;
+    color: #FFFF;
+    text-align: center;
+}
+.footer{
+    padding-top: 10px;
+    padding-left: 60px;
+    height: 97px;
+    width: 100%;
+    background-color: black;
+}
+.footerText{
+    color: #FFFF;
+}
